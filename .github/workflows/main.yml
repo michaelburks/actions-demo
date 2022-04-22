@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  update_charts:
-    name: Update figures
+  update_figures:
+    name: Update Figures
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout Repo
