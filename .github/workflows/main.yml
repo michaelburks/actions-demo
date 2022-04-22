@@ -1,4 +1,4 @@
-name: Update Charts
+name: Update Figures
 
 on:    
     # Automatically run every 12 hours.
@@ -10,10 +10,10 @@ on:
 
 jobs:
   update_charts:
-    name: Update charts
+    name: Update figures
     runs-on: ubuntu-20.04
     steps:
-    - name: Checkout
+    - name: Checkout Repo
       uses: actions/checkout@v3
 
     - name: Setup Python
