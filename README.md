@@ -1,2 +1,5 @@
 # actions-demo
-trying github actions
+
+US Population
+
+![Population by Year](Figures/population.png)
